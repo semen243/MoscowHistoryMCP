@@ -1,0 +1,16 @@
+﻿server:
+  name: "moscow-history-pipeline"
+  version: "1.0.0"
+  description: "MCP сервер для генерации исторического контента о Москве"
+
+content:
+  daily_posts: 24
+  min_interval_minutes: 25
+  max_interval_minutes: 45
+  operating_hours:
+    start: "08:00"
+    end: "23:59"
+  
+  text_limits:
+    min_chars: 900
+    max_chars: 1000
